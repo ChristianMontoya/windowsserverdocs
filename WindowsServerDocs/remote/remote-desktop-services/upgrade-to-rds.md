@@ -25,7 +25,7 @@ Upgrades to Windows Server 2016 are supported only from Windows Server 2012 R2 a
 ## Flow for deployment upgrades
 In order to keep the down-time to a minimum, it is best to follow the steps below:
 
-1. **RD Connection Broker servers** should be the first to be upgraded. If there is active/active setup in the deployment, all servers should be upgraded in the same time. 
+1. **RD Connection Broker servers** should be the first to be upgraded. If there is active/active setup in the deployment, all but one server should be removed from the deployment to perform an in-place upgrade. The other RD Connection Broker servers can be upgraded offline and brought back into the deployment. 
 The deployment will not be available during RD Connection Broker servers upgrade.
    > [!NOTE] 
    > It is mandatory to upgrade RD Connection Broker servers. We do not support Windows Server 2012 R2 RD Connection Broker servers in a mixed deployment with Windows Server 2016 servers. Once the RD Connection Broker server(s) are running Windows Server 2016 the deployment will be functional, even if the rest of the servers in the deployment are still running Windows Server 2012 R2.
