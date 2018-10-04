@@ -17,14 +17,8 @@ ms.localizationpriority: medium
 ---
 # Remote Desktop Services - planning poster
 
-## Remote Desktop modern infrastructure
-Did you hear about the new Remote Desktop modern infrastructure? If not, you've got to check out Scott Manchester's post and video, [Remote Desktop Services: Updates & upcoming innovations](https://blogs.technet.microsoft.com/enterprisemobility/2017/09/20/first-look-at-updates-coming-to-remote-desktop-services/). The new modern infrastructure (sometimes called "RDmi") is currently in private preview. 
-
-The following poster shows how you can plan for and deploy the modern infrastructure.
-
-![Remote Desktop modern infrastructure architecture poster](media/rds-rdmi-poster.png)
-
-[Download the PDF](https://github.com/MicrosoftDocs/windowsserverdocs/blob/master/WindowsServerDocs/remote/remote-desktop-services/media/rdmi-poster.pdf)
+## Windows Virtual Desktop (formerly Remote Desktop modern infrastructure, or RDmi)
+Windows Virtual Desktop delivers the premier virtual desktop and remote app experience through Azure. Check out [Windows Virtual Desktop](https://azure.microsoft.com/services/virtual-desktop/) for more information.
 
 ## Remote Desktop Services in Windows Server
 
